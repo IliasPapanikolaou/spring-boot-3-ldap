@@ -1,0 +1,6 @@
+spring:
+  ldap:
+    embedded:
+      port: 8389
+      ldif: classpath:ldap-data.ldif
+      base-dn: dc=springframework,dc=org
